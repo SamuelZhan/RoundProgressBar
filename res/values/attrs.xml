@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="count" format="integer"/>
+        <attr name="countWidth" format="dimension"/>
+        <attr name="countAngle" format="float"/>
+        <attr name="countColor" format="color"/>
+        <attr name="secondCountColor" format="color"/>
+        <attr name="startAngle" format="float"/>
+        <attr name="spacingFromAngle" format="float"/>
+        <attr name="spacingToAngle" format="float"/>
+        <attr name="isSpacing" format="boolean"/>
+        <attr name="animation" format="boolean"/>
+        <attr name="animationDuration" format="integer"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.roundprogressbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.roundprogressbar.RoundProgressBar 
+        android:id="@+id/progressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        custom:countWidth="10dp"
+        custom:count="100"
+        custom:animation="true"
+        custom:isSpacing="true"
+        custom:startAngle="135"
+        custom:animationDuration="2000"/>
+
+</RelativeLayout>
